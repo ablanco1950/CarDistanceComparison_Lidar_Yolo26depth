@@ -9,7 +9,7 @@ It is important to have the latest version of ultralytics; otherwise, the recent
 
 Installation:
 
-Once the project is downloaded to disk, locate the files named:
+Once the project is downloaded to disk:
 
 Download the files from https://www.cvlibs.net/datasets/kitti/raw_data.php
 
@@ -17,7 +17,7 @@ dataset 2011_09_26_drive_0013 marked as:
 
 [synced + rectified_data], [calibration], and [tracklets]
 
-and arranged according to the following scheme:
+and arranged in the project directory according to the following scheme:
 
 2011_09_26
 
