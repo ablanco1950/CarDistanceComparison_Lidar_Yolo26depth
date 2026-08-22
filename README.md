@@ -21,19 +21,19 @@ and arranged according to the following scheme:
 
 2011_09_26
 
-2011_09_26_drive_0013_extract_sync
+     2011_09_26_drive_0013_extract_sync
 
-image_00
+         image_00
 
-image_01
+         image_01
 
-image_02
+         image_02
 
-image_03
+         image_03
 
-oxts
+     oxts
 
-velodyne_points
+     velodyne_points
 
 calib_cam_to_cam.txt
 
