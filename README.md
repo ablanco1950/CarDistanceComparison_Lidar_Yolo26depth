@@ -221,9 +221,11 @@ Conclusions:
 
 Perform an adjustment using the YOLO26-Depth model.calibrate function, which requires selecting and training a set of approximately 100 images with their cars labeled and incorporating the distance to the YOLO coordinates x1, y1, x2, y2. This would initially require some fieldwork.
 
-* This project received assistance from Google Gemini for the design of data processing scripts, hyperparameter optimization, and structuring of the calibration flow for YOLO26-Depth.
+Citations and Acknowledgments
 
-* Thanks to **Ultralytics** for providing the framework and native depth estimation tools.
+This project received assistance from Google Gemini for the design of data processing scripts, hyperparameter optimization, and structuring of the calibration flow for YOLO26-Depth.
+
+Thanks to **Ultralytics** for providing the framework and native depth estimation tools.
 
 Citation
 @article{Geiger2013IJRR,
