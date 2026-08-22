@@ -19,7 +19,7 @@ dataset 2011_09_26_drive_0013 marked as:
 
 and arranged in the project directory according to the following scheme:
 
-2011_09_26
+2011_09_26 the main folder and inside:
 
      2011_09_26_drive_0013_extract_sync
 
