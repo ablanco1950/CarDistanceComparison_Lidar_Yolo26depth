@@ -47,6 +47,8 @@ python CarDistanceComparison_Lidar_Yolo26depth,py
 
 Each frame appears on the screen, with the detected car in a box and the distance estimated by the lidar in black and the estimated distance in blue. by yolo26depth. You have to close each frame for the test to advance to the next.
 
+![Figure 1](https://github.com/ablanco1950/CarDistanceComparison_Lidar_Yolo26deph/blob/main/Figure_1.png)
+
 A list will appear in the console indicating the differences found between the frames.
 
 
