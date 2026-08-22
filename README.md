@@ -217,7 +217,7 @@ Conclusions:
 - There is an estimated average difference of 1.72m between the distances estimated by lidar and those estimated by the YOLO26-Depth vision system.
 - The series of frames included in the KITTI dataset are not of sufficient quality, which negatively impacts the YOLO26-Depth vision-based estimates.
 
-#Improvements to incorporate:
+# Improvements to incorporate:
 
 Perform an adjustment using the YOLO26-Depth model.calibrate function, which requires selecting and training a set of approximately 100 images with their cars labeled and incorporating the distance to the YOLO coordinates x1, y1, x2, y2. This would initially require some fieldwork.
 
