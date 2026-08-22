@@ -31,15 +31,15 @@ and arranged according to the following scheme:
 
          image_03
 
-     oxts
+         oxts
 
-     velodyne_points
+         velodyne_points
 
-calib_cam_to_cam.txt
+     calib_cam_to_cam.txt
 
-calib_imu_to_velo.txt
+     calib_imu_to_velo.txt
 
-calib_velo_to_cam.txt
+     calib_velo_to_cam.txt
 
 Test:
 python CarDistanceComparison_Lidar_Yolo26depth,py
