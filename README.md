@@ -11,7 +11,7 @@ Installation:
 
 Once the project is downloaded to disk, locate the files named:
 
-Download the corresponding files from https://www.cvlibs.net/datasets/kitti/raw_data.php
+Download the files from https://www.cvlibs.net/datasets/kitti/raw_data.php
 
 dataset 2011_09_26_drive_0013 marked as:
 
