@@ -1,0 +1,9 @@
+
+train: val/images # Podemos repetir 'val' si solo calibramos y no entrenamos gradientes
+val: val/images
+min_depth: 0.1
+max_depth: 80.0 # Pon aquí la distancia máxima que tengan tus coches
+
+nc: 1
+
+names: "Distancia"
