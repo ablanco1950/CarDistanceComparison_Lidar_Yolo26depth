@@ -233,7 +233,7 @@ python CreateFileLabelsToCalibrateYolo26depth.py
 
 - Calibrate the model
 
-python CreateFileLabelsToCalibrateYolo26depth
+python CreaYolo26depthCalibrated.py
 
 The yolo26n-depth-calibrated.pt model will be created in the project directory.
 
