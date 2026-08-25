@@ -221,9 +221,27 @@ Conclusions:
 - There is an estimated average difference of 1.72m between the distances estimated by lidar and those estimated by the YOLO26-Depth vision system.
 - The series of frames included in the KITTI dataset are not of sufficient quality, which negatively impacts the YOLO26-Depth vision-based estimates.
 
-# Improvements to incorporate:
+# CALIBRATION
 
-Perform an adjustment using the YOLO26-Depth model.calibrate function, which requires selecting and training a set of approximately 100 images with their cars labeled and incorporating the distance to the YOLO coordinates x1, y1, x2, y2. This would initially require some fieldwork.
+The model obtained would need to be calibrated with distance data verified through fieldwork. Since this would be costly, we will assume that the distances obtained with lidar were correct (which has not been verified, but we will assume they were taken by a perfect lidar system). During calibration, we will attempt to adjust the distances obtained with yolo26depth to the supposedly correct distances obtained with lidar.
+
+- Create the file structure needed for calibration
+
+python CreateFileLabelsToCalibrateYolo26depth.py
+
+- After executing the previous step, a folder named dataset_calibracion will have been created in the project directory. Copy the dataset.yaml file to the first level of this folder, next to the val folder.
+
+- Calibrate the model
+
+python CreateFileLabelsToCalibrateYolo26depth
+
+The yolo26n-depth-calibrated.pt model will be created in the project directory.
+
+- Re-estimate the distance using yolo26n-depth-calibrated.pt
+
+The frames will be displayed on the screen one by one.
+
+The following list will be displayed in the console:
 
 Citations and Acknowledgments
 
